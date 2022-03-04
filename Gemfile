@@ -25,6 +25,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+gem 'graphql', '~> 2.0', '>= 2.0.2'
+
 gem 'elasticsearch-rails', '~> 7.1'
 gem 'elasticsearch-model', '~> 7.1'
 gem "elasticsearch-persistence", "~> 7.1"
@@ -40,6 +42,7 @@ group :development do
   gem 'spring'
   gem 'irb', require: false
   gem 'rdoc', require: false
+  gem 'graphiql-rails', '~> 1.8'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
